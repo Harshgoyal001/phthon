@@ -1,0 +1,34 @@
+git --version #to check the version of git
+
+git config --global user.name "Harshgoyal001"
+git config --global user.email "harshgoyal89200@gmail.com"
+
+git clone "htpps link you copy form git hub"#to clone the repo of GitHub
+
+cd # use to change directory
+
+Get-ChildItem #to check the listing file in directory
+Get-ChildItem -force # to show hidden file
+
+
+
+git add <-file name->#to add a file
+git add .# to add all data
+git commit -m "some message"# to commit the change
+
+git push origin main # to push change in GitHub
+
+
+## to add file from git hb 
+
+git init 
+
+git remote add origin"link"# crate repo nad copy link
+
+git remote -v (to verify remote)
+
+git branch (to check branch)
+
+git branch -M main (to rename branch)
+
+git push origin main
